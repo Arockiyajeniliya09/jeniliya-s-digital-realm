@@ -27,6 +27,7 @@ const cards = [
 
 const timeline = [
   { year: "2023 – Present", title: "Bachelor of Computer Applications", place: "Kamaraj College, Thoothukudi" },
+  { year: "2024 – Present", title: "FACEPrep Campus Training", place: "Aptitude, coding & placement readiness" },
   { year: "2022 – 2023", title: "Higher Secondary (12th)", place: "Computer Science Stream" },
   { year: "2020 – 2021", title: "Secondary School (10th)", place: "Foundation in Mathematics & Science" },
 ];

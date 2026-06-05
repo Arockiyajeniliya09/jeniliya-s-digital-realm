@@ -1,5 +1,5 @@
 import { ArrowUp } from "lucide-react";
-import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa6";
+import { FaLinkedin, FaGithub, FaInstagram, FaEnvelope } from "react-icons/fa6";
 import { Button } from "@/components/ui/button";
 
 const links = [
@@ -40,6 +40,7 @@ export function Footer() {
             {[
               { icon: FaLinkedin, href: "https://linkedin.com", label: "LinkedIn" },
               { icon: FaGithub, href: "https://github.com", label: "GitHub" },
+              { icon: FaInstagram, href: "https://instagram.com", label: "Instagram" },
               { icon: FaEnvelope, href: "mailto:jeniliyajosephraj@gmail.com", label: "Email" },
             ].map(({ icon: Icon, href, label }) => (
               <a
