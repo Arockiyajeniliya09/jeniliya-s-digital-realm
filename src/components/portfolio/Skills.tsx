@@ -6,11 +6,15 @@ const tech = [
   { name: "HTML", value: 95 },
   { name: "CSS", value: 90 },
   { name: "JavaScript", value: 85 },
-  { name: "React JS", value: 80 },
+  { name: "Bootstrap", value: 85 },
+  { name: "React.js", value: 80 },
+  { name: "Node.js", value: 75 },
+  { name: "Express.js", value: 72 },
+  { name: "MongoDB", value: 75 },
   { name: "Python", value: 85 },
   { name: "Java", value: 75 },
-  { name: "C++", value: 70 },
-  { name: "SQL", value: 80 },
+  { name: "C", value: 80 },
+  { name: "C++", value: 75 },
 ];
 
 const soft = [

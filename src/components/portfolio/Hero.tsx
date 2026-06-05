@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import { Download, Mail } from "lucide-react";
-import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa6";
+import { Download, Mail, FolderGit2 } from "lucide-react";
+import { FaLinkedin, FaGithub, FaInstagram, FaEnvelope } from "react-icons/fa6";
 import { Button } from "@/components/ui/button";
 import profileAsset from "@/assets/jeniliya.jpg.asset.json";
 
@@ -71,9 +71,14 @@ export function Hero() {
                 <Download className="w-4 h-4 mr-2" /> Download Resume
               </Button>
             </a>
+            <a href="#projects">
+              <Button size="lg" variant="outline" className="glass">
+                <FolderGit2 className="w-4 h-4 mr-2" /> View Projects
+              </Button>
+            </a>
             <a href="#contact">
               <Button size="lg" variant="outline" className="glass">
-                <Mail className="w-4 h-4 mr-2" /> Hire Me
+                <Mail className="w-4 h-4 mr-2" /> Contact Me
               </Button>
             </a>
           </div>
@@ -82,6 +87,7 @@ export function Hero() {
             {[
               { icon: FaLinkedin, href: "https://linkedin.com", label: "LinkedIn" },
               { icon: FaGithub, href: "https://github.com", label: "GitHub" },
+              { icon: FaInstagram, href: "https://instagram.com", label: "Instagram" },
               { icon: FaEnvelope, href: "mailto:jeniliyajosephraj@gmail.com", label: "Email" },
             ].map(({ icon: Icon, href, label }) => (
               <a

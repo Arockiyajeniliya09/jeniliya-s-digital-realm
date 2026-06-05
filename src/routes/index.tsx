@@ -9,6 +9,8 @@ import { Achievements } from "@/components/portfolio/Achievements";
 import { Contact } from "@/components/portfolio/Contact";
 import { Footer } from "@/components/portfolio/Footer";
 import { Loader } from "@/components/portfolio/Loader";
+import { ScrollToTop } from "@/components/portfolio/ScrollToTop";
+import { Stats } from "@/components/portfolio/Stats";
 import { Toaster } from "@/components/ui/sonner";
 
 export const Route = createFileRoute("/")({
@@ -40,6 +42,7 @@ function Index() {
         <Navbar />
         <main>
           <Hero />
+          <Stats />
           <About />
           <Skills />
           <Projects />
@@ -47,6 +50,7 @@ function Index() {
           <Contact />
         </main>
         <Footer />
+        <ScrollToTop />
         <Toaster richColors position="bottom-right" />
       </div>
     </ThemeProvider>
